@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "m4d7",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Share+Tech+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Electrolize', sans-serif;
+    background-color: hsl(250, 40%, 30%);
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='hsl(0, 10%, 10%)' fill-opacity='0.51' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.heading {
+    text-align: center;
+    font-weight: 400;
+    word-spacing: 2em;
+    margin-top: -0.1em;
+}
+
+.logo {
+    padding: 0;
+    z-index: 0;
+    top: -2em;
+}
+
+
+
+footer {
+    margin: 5em 0;
+    background-color: hsl(0, 0%, 20%, 0.1);
+    color: rgb(59, 59, 59, 0.5);
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+.card, .card-body, .card-text, li {
+    background-color: hsl(0, 0%, 20%, 0) !important;
+    color: #fbf8f8;
+}
+
+.card {
+    margin: .1em;
+    border: 1px solid hsl(200, 100%, 50%, 0.2);
+    position: relative;
+}
+
+.card:hover {
+    border: 1px solid hsl(200, 100%, 50%);
+    box-shadow: inset 0px 1px 50px -10px rgba(0,170,255,1);
+    transition: all .5s ease-in-out;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    padding: 0;
+}
+
+.card-img-top:hover {
+    transform: scale(0.95);
+    box-shadow: hsl(200, 50%, 50%, 0.5) 0px 13px 97px -5px, hsl(200, 50%, 50%, 0.5) 0px 8px 100px -8px;
+    transition: .3s all .15s ease-out;
+
+}
+
+h1, .card-title {
+    margin-top: 1em;
+    color: hsl(200, 100%, 80%) !important;
+    text-align: center;
+}
+
+.description {
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.price {
+    background: hsl(87, 100%, 45%, 0.15);
+    border: 5px double hsl(87, 100%, 45%);
+    margin: 5px 0;
+    padding: 0.25em 0.5em;
+    border-radius: 0.15em;
+    color: hsl(87, 100%, 45%);
+}
+
+
+/* buttons */
+.btn {
+    background-color: hsl(200, 100%, 50%, 0.1);
+    border: 1px solid hsl(200, 100%, 50%);
+    color: hsl(200, 100%, 50%);
+    color: rgba(100, 100, 100);
+    padding: 0.45em 0.5em;
+    border-radius: 0.15em;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    background: hsl(200, 100%, 50%, 0.2);
+    transition: all .5s ease-out;
+    transform: scale(0.95) translateY(-3px);
+}
+
+.btn.btn-danger {
+    background: hsl(0, 100%, 40%, 0.1);
+    border: 1px solid hsl(0, 100%, 40%);
+    color: hsl(0, 100%, 40%);
+}
+
+.btn.btn-danger:hover,
+.btn.btn-danger:focus-visible {
+    background: hsl(0, 100%, 40%, 0.2);
+} 
+
+
+footer {
+    color: hsl(50, 0%, 50%) !important;
+}
+
+/* squared squares spinners */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 5em;
+}
+
+
+.breeding-rhombus-spinner {
+    height: 95px;
+    width: 95px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.breeding-rhombus-spinner, .breeding-rhombus-spinner * {
+    box-sizing: border-box;
+}
+
+.breeding-rhombus-spinner .rhombus {
+    height: calc(95px / 7.5);
+    width: calc(95px / 7.5);
+    animation-duration: 2000ms;
+    top: calc(95px / 2.3077);
+    left: calc(95px / 2.3077);
+    background-color: hsl(250, 40%, 50%);
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+
+.breeding-rhombus-spinner .rhombus:nth-child(2n+0) {
+    margin-right: 0;
+}
+
+.breeding-rhombus-spinner .rhombus.child-1 {
+    animation-name: breeding-rhombus-spinner-animation-child-1;
+    animation-delay: calc(100ms * 1);
+}
+
+.breeding-rhombus-spinner .rhombus.child-2 {
+    animation-name: breeding-rhombus-spinner-animation-child-2;
+    animation-delay: calc(100ms * 2);
+}
+
+.breeding-rhombus-spinner .rhombus.child-3 {
+    animation-name: breeding-rhombus-spinner-animation-child-3;
+    animation-delay: calc(100ms * 3);
+}
+
+.breeding-rhombus-spinner .rhombus.child-4 {
+    animation-name: breeding-rhombus-spinner-animation-child-4;
+    animation-delay: calc(100ms * 4);
+}
+
+.breeding-rhombus-spinner .rhombus.child-5 {
+    animation-name: breeding-rhombus-spinner-animation-child-5;
+    animation-delay: calc(100ms * 5);
+}
+
+.breeding-rhombus-spinner .rhombus.child-6 {
+    animation-name: breeding-rhombus-spinner-animation-child-6;
+    animation-delay: calc(100ms * 6);
+}
+
+.breeding-rhombus-spinner .rhombus.child-7 {
+    animation-name: breeding-rhombus-spinner-animation-child-7;
+    animation-delay: calc(100ms * 7);
+}
+
+.breeding-rhombus-spinner .rhombus.child-8 {
+    animation-name: breeding-rhombus-spinner-animation-child-8;
+    animation-delay: calc(100ms * 8);
+}
+
+.breeding-rhombus-spinner .rhombus.big {
+    height: calc(95px / 3);
+    width: calc(95px / 3);
+    animation-duration: 2000ms;
+    top: calc(95px / 3);
+    left: calc(95px / 3);
+    background-color: hsl(290, 90%, 70%, 0.5);
+    animation: breeding-rhombus-spinner-animation-child-big 2s infinite;
+    animation-delay: 0.5s;
+}
+
+
+@keyframes breeding-rhombus-spinner-animation-child-1 {
+    50% {
+        transform: translate(-325%, -325%);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-2 {
+    50% {
+        transform: translate(0, -325%);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-3 {
+    50% {
+        transform: translate(325%, -325%);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-4 {
+    50% {
+        transform: translate(325%, 0);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-5 {
+    50% {
+        transform: translate(325%, 325%);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-6 {
+    50% {
+        transform: translate(0, 325%);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-7 {
+    50% {
+        transform: translate(-325%, 325%);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-8 {
+    50% {
+        transform: translate(-325%, 0);
+    }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-big {
+    50% {
+        transform: scale(0.5);
+    }
+}
+

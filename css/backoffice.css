@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Share+Tech+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Electrolize', sans-serif;
+    background-color: hsl(250, 40%, 30%);
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='hsl(0, 10%, 10%)' fill-opacity='0.51' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+
+.heading {
+    text-align: center;
+    font-weight: 400;
+    word-spacing: 2em;
+    margin-top: -0.1em;
+}
+
+.logo {
+    padding: 0;
+    z-index: 1;
+    top: -2em;
+}
+
+
+h1, h2, h3, h4, h5, h6, label, .card-title {
+    margin-top: 1em;
+    color: hsl(200, 100%, 80%) !important;
+    text-align: center;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+tr {
+    background-color: transparent;
+
+}
+
+/* buttons */
+.btn {
+    background-color: hsl(200, 100%, 50%, 0.1);
+    border: 1px solid hsl(200, 100%, 50%);
+    color: hsl(200, 100%, 50%);
+    padding: 0.45em 0.5em;
+    border-radius: 0.15em;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    background: hsl(200, 100%, 50%, 0.2);
+    transition: all .5s ease-out;
+    transform: scale(0.95) translateY(-3px);
+}
+
+.btn.btn-danger {
+    background: hsl(0, 100%, 40%, 0.1);
+    border: 1px solid hsl(0, 100%, 40%);
+    color: hsl(0, 100%, 40%);
+}
+
+.btn.btn-danger:hover,
+.btn.btn-danger:focus-visible {
+    background: hsl(0, 100%, 40%, 0.2);
+} 
+
+
+
+
+footer {
+    margin: 50px 0;
+    background-color: hsl(0, 0%, 20%, 0.1);
+    color: rgb(59, 59, 59, 0.5)
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.text-table {
+    color: hsl(200, 100%, 80%);
+}
+
+/* .table-container {
+    margin: 10px 50px;
+} */
+
+
+
+#product-id-td {
+    max-width: 0;
+}
+
+/* inputs */
+.new-item-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+
+.new-item-form input {
+    outline: hsla(193, 95%, 68%, 0.725) solid 2px;
+    border: 2px solid hsl(200, 100%, 40%);
+    background: hsl(200, 50%, 30%);
+    border-radius: 0.25em;
+    color: hsl(200, 100%, 50%);
+    opacity: 0.6;
+
+}
+
+.fa-solid {
+    color: hsl(200, 100%, 50%);
+    background-color: hsl(200, 100%, 50%, 0.01);
+    padding: 5px;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    color: hsl(200, 100%, 50%);
+    background-color: hsl(200, 100%, 50%, 0.01);
+    padding: 0;
+}
+
+.new-item-form input:focus,
+.new-item-form input:focus-visible {
+    border: 1px solid hsl(200, 100%, 50%);
+}
+
+

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg29741" viewBox="0 0 744.09 1052.4" version="1.1">
+  <defs id="defs29743">
+    <linearGradient id="linearGradient29739" x1="490.06" xlink:href="#linearGradient29721" gradientUnits="userSpaceOnUse" y1="689.64" gradientTransform="matrix(-3.5428 .94929 -.94929 -3.5428 2465.2 2533.1)" x2="474.9" y2="701.22"/>
+    <linearGradient id="linearGradient29721">
+      <stop id="stop29723" stop-color="#fff" offset="0"/>
+      <stop id="stop29725" stop-color="#fff" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient29727" x1="490.06" xlink:href="#linearGradient29721" gradientUnits="userSpaceOnUse" y1="689.64" gradientTransform="matrix(3.6678 0 0 3.6678 -1136.4 -2468.8)" x2="474.9" y2="701.22"/>
+  </defs>
+  <g id="layer1">
+    <rect id="rect29543" rx="43.761" ry="42.295" height="494.68" width="585.81" stroke="#000" y="53.308" x="68.523" stroke-width="7.3356" fill="#acacac"/>
+    <path id="path29737" stroke="url(#linearGradient29739)" stroke-width="18.339" fill="none" d="m180.75 516.5c-70.17 23.24-105.89 37.45-103.48-62.7"/>
+    <rect id="rect29607" rx="43.761" ry="42.295" height="305.3" width="506.43" stroke="#000" y="241.68" x="108.34" stroke-width="7.3356" fill="#fff"/>
+    <path id="path29609" stroke="#000" stroke-width="3.6678px" fill="none" d="m362.93 242.87v301.71"/>
+    <path id="path29611" stroke="#000" stroke-width="3.6678px" fill="none" d="m321.02 245.27v300.5"/>
+    <path id="path29613" stroke="#000" stroke-width="3.6678px" fill="none" d="m279.11 242.87v301.71"/>
+    <path id="path29615" stroke="#000" stroke-width="3.6678px" fill="none" d="m237.19 245.27v300.5"/>
+    <path id="path29617" stroke="#000" stroke-width="3.6678px" fill="none" d="m195.28 242.87v301.71"/>
+    <path id="path29619" stroke="#000" stroke-width="3.6678px" fill="none" d="m153.36 245.27v300.5"/>
+    <path id="path29623" stroke="#000" stroke-width="3.6678px" fill="none" d="m572.51 245.27v300.5"/>
+    <path id="path29625" stroke="#000" stroke-width="3.6678px" fill="none" d="m530.59 242.87v301.71"/>
+    <path id="path29627" stroke="#000" stroke-width="3.6678px" fill="none" d="m488.68 245.27v300.5"/>
+    <path id="path29629" stroke="#000" stroke-width="3.6678px" fill="none" d="m446.76 242.87v301.71"/>
+    <path id="path29631" stroke="#000" stroke-width="3.6678px" fill="none" d="m404.85 245.27v300.5"/>
+    <rect id="rect29633" rx="4.789" ry="7.1835" height="155.64" width="21.55" stroke="#000" y="242.87" x="149.59" stroke-width="7.3356"/>
+    <rect id="rect29635" rx="4.789" ry="7.1835" height="155.64" width="21.55" stroke="#000" y="242.87" x="193.6" stroke-width="7.3356"/>
+    <rect id="rect29637" rx="4.789" ry="7.1835" height="155.64" width="21.55" stroke="#000" y="242.87" x="274.29" stroke-width="7.3356"/>
+    <rect id="rect29639" rx="4.789" ry="7.1835" height="155.64" width="21.55" stroke="#000" y="242.87" x="318.31" stroke-width="7.3356"/>
+    <rect id="rect29641" rx="4.789" ry="7.1835" height="155.64" width="21.55" stroke="#000" y="242.87" x="362.32" stroke-width="7.3356"/>
+    <rect id="rect29643" rx="4.789" ry="7.1835" height="155.64" width="21.55" stroke="#000" y="242.87" x="443.01" stroke-width="7.3356"/>
+    <rect id="rect29645" rx="4.789" ry="7.1835" height="155.64" width="21.55" stroke="#000" y="242.87" x="487.02" stroke-width="7.3356"/>
+    <rect id="rect29647" rx="4.7942" ry="7.1294" height="154.47" width="21.574" stroke="#000" y="244.06" x="567.7" stroke-width="7.3119"/>
+    <rect id="rect29653" rx="5.4491" ry="7.5751" height="52.679" width="120.92" stroke="#000" y="119.56" x="296.7" stroke-width="3.6678" fill="#6b9962"/>
+    <text id="text29655" font-size="12.125px" xml:space="preserve" y="134.63254" x="302.9328" font-family="Bitstream Vera Sans" fill="#000000">
+      <tspan id="tspan29657" y="134.63254" x="302.9328">bank 001</tspan>
+      <tspan id="tspan29659" y="149.78885" x="302.9328">moogish</tspan>
+      <tspan id="tspan29661" y="164.94519" x="302.9328">edit   save  _load</tspan>
+    </text>
+    <path id="path29663" stroke="#000" transform="matrix(3.6678 0 0 3.6678 -674.27 -2442.5)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29665" stroke="#000" transform="matrix(3.6678 0 0 3.6678 -674.27 -2493.8)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29667" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -171.04 -1337.9)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29669" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -171.04 -1367.3)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29671" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -171.04 -1308.6)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29673" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -200.38 -1337.9)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29675" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -200.38 -1367.3)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29677" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -200.38 -1308.6)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29679" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -229.72 -1337.9)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29681" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -229.72 -1367.3)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29683" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -229.72 -1308.6)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29685" stroke="#000" stroke-width="3.6678px" fill="none" d="m115.91 92.02v113.74"/>
+    <path id="path29689" stroke="#000" stroke-width="3.6678px" fill="none" d="m145.25 92.02v113.74"/>
+    <path id="path29691" stroke="#000" stroke-width="3.6678px" fill="none" d="m174.6 92.02v113.74"/>
+    <path id="path29693" stroke="#000" stroke-width="3.6678px" fill="none" d="m203.94 92.02v113.74"/>
+    <rect id="rect29695" rx="0" ry="0" height="8.9761" width="20.948" stroke="#000" y="104.89" x="104.84" stroke-width="2.9342" fill="#414141"/>
+    <rect id="rect29697" rx="0" ry="0" height="8.9761" width="20.948" stroke="#000" y="148.91" x="134.18" stroke-width="2.9342" fill="#414141"/>
+    <rect id="rect29699" rx="0" ry="0" height="8.9761" width="20.948" stroke="#000" y="126.9" x="163.52" stroke-width="2.9342" fill="#414141"/>
+    <rect id="rect29701" rx="0" ry="0" height="8.9761" width="20.948" stroke="#000" y="181.58" x="192.87" stroke-width="2.9342" fill="#414141"/>
+    <path id="path29703" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -464.46 -1337.9)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29705" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -464.46 -1367.3)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29707" stroke="#000" transform="matrix(2.0818 0 0 2.0818 -464.46 -1308.6)" fill="#414141" d="m348.62 712.4a4.4067 4.4067 0 1 1 -8.82 0 4.4067 4.4067 0 1 1 8.82 0z"/>
+    <path id="path29719" stroke="url(#linearGradient29727)" stroke-width="18.339" fill="none" d="m548.29 70.366c73.8-4.283 108.6-14.637 88.04 89.734"/>
+    <path id="path2876" stroke="#000" stroke-width="1px" fill="#fff" d="m168.7 248.28v139.4h2.0203"/>
+    <path id="path3650" stroke="#000" stroke-width="1px" fill="#fff" d="m212.7 248.28v139.4h2.0203"/>
+    <path id="path3652" stroke="#000" stroke-width="1px" fill="#fff" d="m294.7 248.28v139.4h2.0203"/>
+    <path id="path3654" stroke="#000" stroke-width="1px" fill="#fff" d="m338.7 248.28v139.4h2.0203"/>
+    <path id="path3656" stroke="#000" stroke-width="1px" fill="#fff" d="m382.7 248.28v139.4h2.0203"/>
+    <path id="path3658" stroke="#000" stroke-width="1px" fill="#fff" d="m462.7 248.28v139.4h2.0203"/>
+    <path id="path3660" stroke="#000" stroke-width="1px" fill="#fff" d="m506.7 248.28v139.4h2.0203"/>
+    <path id="path3662" stroke="#000" stroke-width="1px" fill="#fff" d="m586.7 248.28v139.4h2.0203"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>synth</dc:title>
+        <dc:date>2010-08-16T15:04:10</dc:date>
+        <dc:description>digital synth, could possibly be useful as an icon or button</dc:description>
+        <dc:source>http://openclipart.org/detail/80839/synth-by-notklaatu</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>notKlaatu</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>digital</rdf:li>
+            <rdf:li>electronic</rdf:li>
+            <rdf:li>synthesizer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
