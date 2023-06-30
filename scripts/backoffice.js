@@ -1,5 +1,5 @@
 const API = `https://striveschool-api.herokuapp.com/api/product/`;
-const TOKEN = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDM2ZjFmZDMzYjE1MjAwMTQ3NjE3OTgiLCJpYXQiOjE2ODY5MzE4MDksImV4cCI6MTY4ODE0MTQwOX0.l3WlVjgHSJtjoFMfkg2yCkr1lbCgFWkLYGtfT5S9JCM`;
+const TOKEN = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDM2ZjFmZDMzYjE1MjAwMTQ3NjE3OTgiLCJpYXQiOjE2ODgwMzk5MzksImV4cCI6MTY4OTI0OTUzOX0.1KEwcSOl6q-wmg95NYA8R--g0X3fU3VA-LWoqb4U5wQ`;
 
 const form = document.getElementById("user-form");
 const newProductId = document.getElementById("product-id");
@@ -33,7 +33,7 @@ form.addEventListener("submit", async (event) => {
           "Content-type": "application/json; charset=UTF-8",
         }),
       });
-      window.location.href = "backoffice.html?status=aggiunta-prodotto";
+      window.location.href = "backoffice.html?status=create-product";
     } else {
       const res = await fetch(`${API}${newProductId.value}`, {
         method: "PUT",
@@ -44,7 +44,7 @@ form.addEventListener("submit", async (event) => {
         }),
       });
       if (res.ok) {
-        window.location.href = "backoffice.html?status=edit-ok";
+        window.location.href = "backoffice.html?status=edit-product";
       } else {
         alert("Error editing product");
       }
@@ -72,13 +72,13 @@ async function getTOKEN() {
 getTOKEN();
 
 function createProductsTable(product) {
-  
+
   const tableProd = document.getElementById("table-body");
-  
+
   tableProd.innerHTML = "";
 
   product.forEach((element) => {
-    const cellId = element._id 
+    const cellId = element._id
     const cellName = element.name
     const cellDescription = element.description
         .length > 30
@@ -104,26 +104,26 @@ function createProductsTable(product) {
       <td class="h-8 text-center p-2 border-r-2 w-2/5 break-all line-clamp-8 text-sky-500">${cellDescription}</td>
       <td class="px-6 p-2 border-r-2 text-center text-emerald-500">$ ${cellPrice}</td>
         <td class="col p-5 flex justify-center items-center">
-          <button 
-            class="btn btn-danger btn-xs" 
+          <button
+            class="btn btn-danger btn-xs"
             onclick="deleteProduct('${element._id}')"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-              <path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 
-                2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182 
-                15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802 
-                12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z" 
+              <path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7
+                2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182
+                15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802
+                12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z"
                 fill="hsl(0, 100%, 40%)">
               </path>
             </svg>
           </button>
-          <button 
-            class="btn btn-dark btn-xs text-primary" 
+          <button
+            class="btn btn-dark btn-xs text-primary"
             onclick="getProductData('${element._id}')"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-              <path d="M9.24264 18.9964H21V20.9964H3V16.7538L12.8995 6.85431L17.1421 11.0969L9.24264 
-                18.9964ZM14.3137 5.44009L16.435 3.31877C16.8256 2.92825 17.4587 2.92825 17.8492 3.31877L20.6777 
+              <path d="M9.24264 18.9964H21V20.9964H3V16.7538L12.8995 6.85431L17.1421 11.0969L9.24264
+                18.9964ZM14.3137 5.44009L16.435 3.31877C16.8256 2.92825 17.4587 2.92825 17.8492 3.31877L20.6777
                 6.1472C21.0682 6.53772 21.0682 7.17089 20.6777 7.56141L18.5563 9.68273L14.3137 5.44009Z"
                 fill="hsl(200, 100%, 50%)">
               </path>
@@ -155,12 +155,12 @@ async function deleteProduct(productDeleteId) {
 
 function changeHeading(title) {
   const pageTitle = document.getElementById(`page-title`);
-  const newTitle = title ? `Edit product` : `Create new product`;
+  const newTitle = title ? `EDIT PRODUCT` : `CREATE PRODUCT`;
   pageTitle.textContent = newTitle;
   history.pushState(null, newTitle, `?action=${newTitle}`);
 }
 
-function goBack() {
+function showCaseBtn() {
   window.location.href = "index.html";
 }
 
@@ -179,12 +179,12 @@ async function getProductData(idProdotto) {
       imageUrlInput.value = product.imageUrl;
       priceInput.value = product.price;
   } catch (error) {
-    console.log("Errore nel recupero degli prodotti: ", error);
+    console.log("Error fetching products: ", error);
   }
-  // buildPageTitle(nameInput)
+
+  // dynamic title
   changeHeading(idProdotto);
 }
-
 
 function validateForm() {
   const errors = {};
@@ -244,7 +244,7 @@ function handleFormValidation() {
         const errorAlert = document.getElementById(`${key}-alert`);
         errorAlert.textContent = '';
         errorAlert.textContent = validation.errors[key];
-    } 
+    }
     isValid = false;
   }
   return isValid;

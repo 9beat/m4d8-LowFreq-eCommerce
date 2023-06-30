@@ -21,14 +21,20 @@
       <nav class="navbar">
         <div class="container-fluid flex align-center justify-around">
           <div class="row min-vw-100">
+
+            <!-- Logo -->
             <div class="col-3 flex justify-start flex-grow-1 relative">
               <img src="./assets/bluSynth.webp" class="navbar-brand logo absolute m-0 p-0 w-auto h-30" />
             </div>
+
+            <!-- Dynamic heading -->
             <div class="col-6 flex items-center justify-center">
-              <h1 class="heading fw-bolder fs-1 ">LOW  FREQ</h1>
+              <h1 id="page-title" class="heading fw-bolder fs-1 ">CREATE PRODUCT</h1>
             </div>
+
+            <!-- Showcase link button -->
             <div class="col-3 flex justify-end items-center flex-grow-1">
-              <button class="btn btn-dark rounded-2 p-2 m-0" onclick="goBack()">
+              <button class="btn btn-dark rounded-2 p-2 m-0" onclick="showCaseBtn()">
                 <i class="fa-solid fa-shop fa-beat-fade fa-lg"></i>
               </button>
             </div>
@@ -37,10 +43,8 @@
       </nav>
     </header>
   <main>
-    <div class="flex items-center justify-center">
-      <h2 id="page-title" class="resource-title text-center mx-auto">Create product</h2>
-    </div>
     
+    <!-- form container -->
     <div class="container justify-center items-center">
       <form id="user-form" novalidate>
         <div class="new-item-form justify-center">
@@ -97,7 +101,7 @@
     
     
     <div class="rounded-lg border border-slate-100 shadow-lg shadow-current m-3 table-responsive">
-      <table class="w-full border-collapse bg-white text-left text-sm text-gray-100" id="table-prod">
+      <table class="w-full table-auto border-collapse bg-white text-left text-sm text-gray-100" id="table-prod">
         <thead class="bg-gray-500">
           <tr class="border-b border-gray-200 overflow-hidden ">
             <th scope="col" class="px-10 py-10 font-medium text-center w-auto">Image</th>
@@ -120,6 +124,7 @@
   <!--Footer container-->
   <footer class="text-center py-10">
 
+    <!-- Social links -->
     <div class="my-5 py-50 flex justify-center items-center">
       <a href="#!" class="mr-9 mx-4 hover:text-neutral-200 text-sky-500">
         <svg

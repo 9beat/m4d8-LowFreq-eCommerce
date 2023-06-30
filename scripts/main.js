@@ -1,5 +1,5 @@
 const apiUrl = `https://striveschool-api.herokuapp.com/api/product/`;
-const apiKey = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDM2ZjFmZDMzYjE1MjAwMTQ3NjE3OTgiLCJpYXQiOjE2ODY5MzE4MDksImV4cCI6MTY4ODE0MTQwOX0.l3WlVjgHSJtjoFMfkg2yCkr1lbCgFWkLYGtfT5S9JCM`;
+const apiKey = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDM2ZjFmZDMzYjE1MjAwMTQ3NjE3OTgiLCJpYXQiOjE2ODgwMzk5MzksImV4cCI6MTY4OTI0OTUzOX0.1KEwcSOl6q-wmg95NYA8R--g0X3fU3VA-LWoqb4U5wQ`;
 
 async function getToken() {
   try {
@@ -25,47 +25,47 @@ function productCard(showcaseProducts) {
   let container = document.getElementById("showcase");
   container.innerHTML = "";
 
-  showcaseProducts.forEach((element) => {
+  showcaseProducts.forEach((elem) => {
     let col = document.createElement("div");
     col.classList.add("col");
     col.innerHTML = `
         <div class="card shadow-lg bg-black-100">
           <div class="card-img">
             <img 
-              src="${element.imageUrl}"
-              onclick="showDetail('${element._id}')" 
+              src="${elem.imageUrl}"
+              onclick="showDetail('${elem._id}')" 
               class="card-img-top img-wrap p-1 rounded-3" 
-              alt="${element.name}"
+              alt="${elem.name}"
             />
             <h2 class="card-title text-center fw-bolder">
-            ${element.name}
+            ${elem.name}
             </h2>
           </div>
           <div class="card-body">
 
             <ul class="list-group bg-transparent list-group">
               <li class="asin d-none">
-                ${element._id}
+                ${elem._id}
               </li>
               <li class="d-flex justify-content-center">
                 <h3 class="price fw-bolder">
-                  $ ${element.price},00
+                  $ ${elem.price},00
                 </h3>
               </li>
               <li class="p-2 description">
-                ${element.description}
+                ${elem.description}
               </li>
             </ul>
           </div>
           <div class="btn-group">
             <button
-              onclick="addToCart('${element._id}')"
+              onclick="addToCart('${elem._id}')"
               class="btn btn-md btn-outline"
             >
               ADD TO CART
             </button>
             <button
-              onclick="showDetail('${element._id}')"
+              onclick="showDetail('${elem._id}')"
               class="btn btn-md btn-outline"
             >
               SHOW DETAILS
@@ -76,8 +76,8 @@ function productCard(showcaseProducts) {
   });
 }
 
-function login() {
-  window.location.href = "backoffice.html?new-product";
+function goToBackOffice() {
+  window.location.href = "backoffice.html?create-product";
 }
 
 function showDetail(elem) {
